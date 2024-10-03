@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         // Set button click listener to parse CSV and display data
         parseButton.setOnClickListener {
-            CSVParserUtil.parseAndDisplayCSV(assets, textView, "test_files/test_data_3.csv")
+            CSVParserUtil.ParseAndDisplayCSV(assets, textView, "test_files/test_data_3.csv")
         }
     }
 }

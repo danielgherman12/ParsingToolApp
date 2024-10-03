@@ -10,7 +10,7 @@ import java.io.InputStreamReader
 object CSVParserUtil {
 
     // Function to parse the CSV file and display its contents in a given TextView.
-    fun parseAndDisplayCSV(assets: AssetManager, textView: TextView, filePath: String) {
+    fun ParseAndDisplayCSV(assets: AssetManager, textView: TextView, filePath: String) {
         try {
 
             // Open the CSV file from the assets folder using the provided file path.
